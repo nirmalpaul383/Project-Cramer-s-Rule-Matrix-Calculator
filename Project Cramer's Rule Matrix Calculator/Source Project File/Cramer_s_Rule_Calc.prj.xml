@@ -1,0 +1,2891 @@
+<TaskerData sr="" dvi="1" tv="5.9">
+	<dmetric>1080.0,2016.0</dmetric>
+	<Project sr="proj0" ve="2">
+		<cdate>1569131433040</cdate>
+		<name>Cramer's Rule Calc</name>
+		<scenes>Input Panel,Cramer's Matrix calc By N Paul,Result Panel 2X2,User Guide,Result Panel 3X3,Main Menu,About Screen</scenes>
+		<tids>80,81,82,79,84,86,87,83,78,85</tids>
+		<Kid sr="Kid">
+			<launchID>79</launchID>
+			<pkg>cramer.matrix.calc.n.paul</pkg>
+			<vTarg>21</vTarg>
+			<vnme>1.0.0 (by N Paul)</vnme>
+			<vnum>5</vnum>
+		</Kid>
+		<Img sr="icon" ve="2">
+			<uri>content://com.android.externalstorage.documents/document/primary%3AProject%20Cramer's%20Rule%20Matrix%20Calculator%2FLogo%2FLogo%20Low.png</uri>
+		</Img>
+	</Project>
+	<Scene sr="sceneAbout Screen">
+		<cdate>1576836165957</cdate>
+		<edate>1576837511994</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2016</heightPort>
+		<nme>About Screen</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,183,1076,1475,0,233,1076,1500</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">We can use multiple methods to solve a linear equation. One of them is Cramer's Rule. In this method the value of two or more unknown variables are find. The coefficients of the variables are used to form a matrix and with the help of their determinants, the value of variables are solved. You can find more information about this rule on https://en.m.wikipedia.org/wiki/Cramer%27s_rule this page. This program helps user to solve the linear equations and find the value of the unknown variables. This application supports 2x2 and 3x3 linear equations data(2x2 for two unknown variables e.g X,Y and 3X3 for three unknown variables e.g X,Y,Z). This program also shows full processing method (formula wise) for better understanding what is happening...
+
+
+This application's icon and contains are designed and developed by me (N Paul)
+
+This program is best suitable for stock android with FullHD+ (1080*2160 p) resolution's display. This is an open source project(originally made by me, N Paul) and anybody can view, modify and rebuilt it. To download the project source file visit my GitHub profile https://www.github.com/nirmalpaul383/
+
+ 
+
+If you want to support me please give like to our Facebook page https://www.facebook.com/a.new.way.technical/</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000EFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+		</TextElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>77,1833,749,183,77,1833,749,183</geom>
+			<Str sr="arg0" ve="3">Text2</Str>
+			<Str sr="arg1" ve="3">Thanks for trying the application ☺️</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFF70101</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>827,1933,249,83,827,1933,249,83</geom>
+			<Str sr="arg0" ve="3">Text3</Str>
+			<Str sr="arg1" ve="3">-N Paul</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ImageElement sr="elements3" ve="2">
+			<flags>4</flags>
+			<geom>827,1683,249,250,852,1708,224,225</geom>
+			<Str sr="arg0" ve="3">Image1</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A130158</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg3" val="1"/>
+			<Str sr="arg4" ve="3">About Screen</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<ListElementItem sr="item0">
+				<label>Back</label>
+				<Action sr="action" ve="7">
+					<code>49</code>
+					<Str sr="arg0" ve="3">About Screen</Str>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Project Source Files</label>
+				<Action sr="action" ve="7">
+					<code>104</code>
+					<Str sr="arg0" ve="3">https://www.github.com/nirmalpaul383/</Str>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>Like Our Facebook Page</label>
+				<Action sr="action" ve="7">
+					<code>104</code>
+					<Str sr="arg0" ve="3">https://m.facebook.com/a.New.Way.Technical/</Str>
+				</Action>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneCramer's Matrix calc By N Paul">
+		<cdate>1576773039125</cdate>
+		<edate>1576773672509</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2016</heightPort>
+		<nme>Cramer's Matrix calc By N Paul</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<ImageElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>177,608,724,750,177,608,724,750</geom>
+			<Str sr="arg0" ve="3">Image1</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.externalstorage.documents/document/primary%3AProject%20Cramer's%20Rule%20Matrix%20Calculator%2FLogo%2FName.jpg</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>752,1858,328,158,752,1858,327,158</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">V 1.0.0 (by N Paul)</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>0,1858,751,158,0,1858,751,158</geom>
+			<Str sr="arg0" ve="3">Text2</Str>
+			<Str sr="arg1" ve="3">Thanks for trying my application...</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF003DFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>577,1283,324,100,577,1358,324,100</geom>
+			<Str sr="arg0" ve="3">Text3</Str>
+			<Str sr="arg1" ve="3">by N Paul</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Cramer's Matrix calc By N Paul</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneInput Panel">
+		<cdate>1569131446216</cdate>
+		<edate>1576747490368</edate>
+		<gridSize>10</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>1776</heightPort>
+		<nme>Input Panel</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>195,573,703,510,150,392,419,290</geom>
+			<Str sr="arg0" ve="3">2X2_Rect</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF3BDE99</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>210,588,208,90,140,392,179,60</geom>
+			<Str sr="arg0" ve="3">2X2_X</Str>
+			<Str sr="arg1" ve="3">X</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<RectElement sr="elements10">
+			<geom>60,528,960,645,100,372,519,420</geom>
+			<Str sr="arg0" ve="3">3X3_Rect</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF00F17E</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements11" ve="3">
+			<geom>75,543,210,93,140,392,179,60</geom>
+			<Str sr="arg0" ve="3">3X3_X</Str>
+			<Str sr="arg1" ve="3">X</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements12" ve="3">
+			<geom>300,543,210,93,140,392,179,60</geom>
+			<Str sr="arg0" ve="3">3X3_Y</Str>
+			<Str sr="arg1" ve="3">Y</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements13" ve="3">
+			<geom>525,543,210,93,140,392,179,60</geom>
+			<Str sr="arg0" ve="3">3X3_Z</Str>
+			<Str sr="arg1" ve="3">Z</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements14" ve="3">
+			<geom>780,543,210,93,140,392,179,60</geom>
+			<Str sr="arg0" ve="3">3X3_S</Str>
+			<Str sr="arg1" ve="3">S</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<EditTextElement sr="elements15" ve="3">
+			<geom>75,648,208,120,50,432,139,80</geom>
+			<Str sr="arg0" ve="3">3X3_X1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements16" ve="3">
+			<geom>75,828,210,123,50,432,139,80</geom>
+			<Str sr="arg0" ve="3">3X3_X2</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements17" ve="3">
+			<geom>75,993,210,123,50,432,139,80</geom>
+			<Str sr="arg0" ve="3">3X3_X3</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements18" ve="3">
+			<geom>300,648,210,123,50,432,139,80</geom>
+			<Str sr="arg0" ve="3">3X3_Y1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements19" ve="3">
+			<geom>300,828,210,123,50,432,139,80</geom>
+			<Str sr="arg0" ve="3">3X3_Y2</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>435,588,208,93,140,392,179,60</geom>
+			<Str sr="arg0" ve="3">2X2_Y</Str>
+			<Str sr="arg1" ve="3">Y</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<EditTextElement sr="elements20" ve="3">
+			<geom>300,993,210,123,50,432,139,80</geom>
+			<Str sr="arg0" ve="3">3X3_Y3</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements21" ve="3">
+			<geom>525,648,210,123,50,432,139,80</geom>
+			<Str sr="arg0" ve="3">3X3_Z1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements22" ve="3">
+			<geom>525,828,210,123,50,432,139,80</geom>
+			<Str sr="arg0" ve="3">3X3_Z2</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements23" ve="3">
+			<geom>525,993,210,123,50,432,139,80</geom>
+			<Str sr="arg0" ve="3">3X3_Z3</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements24" ve="3">
+			<geom>780,648,210,123,50,432,139,80</geom>
+			<Str sr="arg0" ve="3">3X3_S1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements25" ve="3">
+			<geom>780,828,210,123,50,432,139,80</geom>
+			<Str sr="arg0" ve="3">3X3_S2</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements26" ve="3">
+			<geom>780,993,210,123,50,432,139,80</geom>
+			<Str sr="arg0" ve="3">3X3_S3</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<OvalElement sr="elements27">
+			<flags>4</flags>
+			<geom>405,1518,268,258,270,1012,179,172</geom>
+			<Str sr="arg0" ve="3">Oval1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFF0000</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+		</OvalElement>
+		<TextElement sr="elements28" ve="3">
+			<clickTask>83</clickTask>
+			<flags>4</flags>
+			<geom>405,1518,268,258,270,1012,179,172</geom>
+			<Str sr="arg0" ve="3">Text8</Str>
+			<Str sr="arg1" ve="3">Calculate !!!</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>675,588,210,93,140,392,179,60</geom>
+			<Str sr="arg0" ve="3">2X2_S</Str>
+			<Str sr="arg1" ve="3">S</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<EditTextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>210,693,209,120,210,693,209,120</geom>
+			<Str sr="arg0" ve="3">2X2_X1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>210,888,210,123,140,462,139,80</geom>
+			<Str sr="arg0" ve="3">2X2_X2</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>435,693,210,123,140,462,139,80</geom>
+			<Str sr="arg0" ve="3">2X2_Y1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements7" ve="3">
+			<flags>4</flags>
+			<geom>435,888,210,123,140,462,139,80</geom>
+			<Str sr="arg0" ve="3">2X2_Y2</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements8" ve="3">
+			<flags>4</flags>
+			<geom>675,693,210,123,140,462,139,80</geom>
+			<Str sr="arg0" ve="3">2X2_S1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements9" ve="3">
+			<flags>4</flags>
+			<geom>675,888,210,123,140,462,139,80</geom>
+			<Str sr="arg0" ve="3">2X2_S2</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4E04AC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<PropertiesElement sr="props">
+			<itemselectedTask>82</itemselectedTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg3" val="1"/>
+			<Str sr="arg4" ve="3">Input Panel</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3">2X2,3X3</Str>
+			<ListElementItem sr="item0">
+				<label>Back</label>
+				<Action sr="action" ve="7">
+					<code>49</code>
+					<Str sr="arg0" ve="3">Input Panel</Str>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Reset</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Clear All</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneMain Menu">
+		<cdate>1576743210805</cdate>
+		<edate>1576837021694</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2016</heightPort>
+		<nme>Main Menu</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<ListElement sr="elements0">
+			<flags>4</flags>
+			<geom>177,633,742,875,177,758,742,500</geom>
+			<Str sr="arg0" ve="3">Menu1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Scene sr="arg4">
+				<Scene sr="val">
+					<cdate>1576743316696</cdate>
+					<edate>1576743316696</edate>
+					<heightLand>168</heightLand>
+					<heightPort>168</heightPort>
+					<nme>Builtin Item Layout</nme>
+					<widthLand>742</widthLand>
+					<widthPort>742</widthPort>
+					<ImageElement sr="elements0" ve="2">
+						<flags>5</flags>
+						<geom>593,34,124,99,573,15,153,137</geom>
+						<Str sr="arg0" ve="3">Icon</Str>
+						<Img sr="arg1" ve="2">
+							<nme>hd_aaa_ext_tiles_small</nme>
+						</Img>
+						<Int sr="arg2" val="255"/>
+					</ImageElement>
+					<TextElement sr="elements1" ve="3">
+						<flags>5</flags>
+						<geom>98,34,469,99,112,15,445,137</geom>
+						<Str sr="arg0" ve="3">Label</Str>
+						<Str sr="arg1" ve="3"/>
+						<Int sr="arg2" val="15"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFF0000</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="0"/>
+						<Int sr="arg7" val="0"/>
+						<Int sr="arg8" val="0"/>
+						<RectElement sr="background">
+							<flags>4</flags>
+							<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+							<Str sr="arg0" ve="3"/>
+							<Int sr="arg1" val="0"/>
+							<Str sr="arg2" ve="3">#FF10DF86</Str>
+							<Str sr="arg3" ve="3"/>
+							<Int sr="arg4" val="1"/>
+							<Str sr="arg5" ve="3">#FF000000</Str>
+							<Int sr="arg6" val="0"/>
+							<Int sr="arg7" val="0"/>
+						</RectElement>
+					</TextElement>
+					<TextElement sr="elements2" ve="3">
+						<flags>1</flags>
+						<geom>15,15,81,137,15,15,81,137</geom>
+						<Str sr="arg0" ve="3">Index</Str>
+						<Str sr="arg1" ve="3">1.</Str>
+						<Int sr="arg2" val="24"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="0"/>
+						<Int sr="arg7"/>
+						<Int sr="arg8"/>
+					</TextElement>
+					<PropertiesElement sr="props">
+						<Int sr="arg0" val="1"/>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#00000000</Str>
+						<Int sr="arg3" val="0"/>
+						<Str sr="arg4" ve="3">Builtin Item Layout</Str>
+						<Str sr="arg5" ve="3"/>
+						<Img sr="arg6" ve="2"/>
+						<Str sr="arg7" ve="3"/>
+					</PropertiesElement>
+				</Scene>
+			</Scene>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<ListElementItem sr="item0">
+				<label>Enter</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Run(Menu Item)</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_av_play_arrow</nme>
+					<tint>-14719028</tint>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>User Guide</label>
+				<Action sr="action" ve="7">
+					<code>47</code>
+					<Str sr="arg0" ve="3">User Guide</Str>
+					<Int sr="arg1" val="6"/>
+					<Int sr="arg2" val="100"/>
+					<Int sr="arg3" val="100"/>
+					<Int sr="arg4" val="0"/>
+					<Int sr="arg5" val="0"/>
+					<Int sr="arg6" val="0"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_action_help</nme>
+					<tint>-14719028</tint>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>Support Me</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Support</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_action_thumb_up</nme>
+					<tint>-14719028</tint>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item3">
+				<label>About</label>
+				<Action sr="action" ve="7">
+					<code>47</code>
+					<Str sr="arg0" ve="3">About Screen</Str>
+					<Int sr="arg1" val="6"/>
+					<Int sr="arg2" val="100"/>
+					<Int sr="arg3" val="100"/>
+					<Int sr="arg4" val="0"/>
+					<Int sr="arg5" val="0"/>
+					<Int sr="arg6" val="0"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_action_assignment</nme>
+					<tint>-14719028</tint>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item4">
+				<label>Exit</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Exit</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_action_exit_to_app</nme>
+					<tint>-14719028</tint>
+				</Img>
+			</ListElementItem>
+		</ListElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg3" val="1"/>
+			<Str sr="arg4" ve="3">Main Menu</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneResult Panel 2X2">
+		<cdate>1569144270447</cdate>
+		<edate>1576748300429</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>1776</heightPort>
+		<nme>Result Panel 2X2</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,756,1080,487,0,279,719,550</geom>
+			<Str sr="arg0" ve="3">Rectangle1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF0BE19E</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>0,0,1080,118,0,0,719,79</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Type 2X2</Str>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FF05E377</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements10" ve="3">
+			<flags>4</flags>
+			<geom>540,793,223,337,0,104,184,150</geom>
+			<Str sr="arg0" ve="3">Text9</Str>
+			<Str sr="arg1" ve="3">Determinant of Y:</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements11" ve="3">
+			<flags>4</flags>
+			<geom>765,793,315,337,185,104,274,150</geom>
+			<Str sr="arg0" ve="3">Text10</Str>
+			<Str sr="arg1" ve="3">|X1  S1|
+|X2  S2|
+
+
+|%V_X1  %V_S1|
+|%V_X2  %V_S2|</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements12" ve="3">
+			<flags>4</flags>
+			<geom>0,1131,501,112,360,354,359,75</geom>
+			<Str sr="arg0" ve="3">Text11</Str>
+			<Str sr="arg1" ve="3">∆Determinant of X ((%V_S1*%V_Y2)-(%V_S2*%V_Y1)): %V_X_Determinant</Str>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF2100FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements13" ve="3">
+			<flags>4</flags>
+			<geom>540,1131,540,112,360,354,359,75</geom>
+			<Str sr="arg0" ve="3">Text12</Str>
+			<Str sr="arg1" ve="3">∆Determinant of Y ((%V_X1*%V_S2)-(%V_X2*%V_S1)): %V_Y_Determinant</Str>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF2100FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<RectElement sr="elements14">
+			<flags>4</flags>
+			<geom>0,1281,1080,495,0,279,719,550</geom>
+			<Str sr="arg0" ve="3">Rectangle3</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF0BE19E</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements15" ve="3">
+			<flags>4</flags>
+			<geom>0,1318,351,112,0,854,234,75</geom>
+			<Str sr="arg0" ve="3">Text13</Str>
+			<Str sr="arg1" ve="3">Value Of X:</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0C09A4</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements16" ve="3">
+			<flags>4</flags>
+			<geom>352,1318,728,112,235,854,484,75</geom>
+			<Str sr="arg0" ve="3">Text14</Str>
+			<Str sr="arg1" ve="3">(∆X's Determinant)/(∆Equation's Determinant) = (%V_X_Determinant/%V_Determinant) = %Value_X</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0050</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements17" ve="3">
+			<flags>4</flags>
+			<geom>0,1468,352,118,0,854,234,75</geom>
+			<Str sr="arg0" ve="3">Text15</Str>
+			<Str sr="arg1" ve="3">Value Of Y:</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0C09A4</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements18" ve="3">
+			<flags>4</flags>
+			<geom>352,1468,728,118,235,854,484,75</geom>
+			<Str sr="arg0" ve="3">Text16</Str>
+			<Str sr="arg1" ve="3">(∆Y's Determinant)/(∆Equation's Determinant) = (%V_Y_Determinant/%V_Determinant) = %Value_Y</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0050</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements19" ve="3">
+			<flags>4</flags>
+			<geom>0,125,1080,150,0,104,719,75</geom>
+			<Str sr="arg0" ve="3">Text17</Str>
+			<Str sr="arg1" ve="3">Equation: 
+(%V_X1*X)+(%V_Y1*Y)=%V_S1
+(%V_X2*X)+(%V_Y2*Y)=%V_S2</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF004BFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<RectElement sr="elements2">
+			<flags>4</flags>
+			<geom>0,118,1080,600,0,279,719,550</geom>
+			<Str sr="arg0" ve="3">Rectangle2</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF0BE19E</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>202,268,298,337,185,104,274,150</geom>
+			<Str sr="arg0" ve="3">Text2</Str>
+			<Str sr="arg1" ve="3">|X1  Y1  S1|
+|X2  Y2  S2|
+
+
+|%V_X1  %V_Y1  %V_S1|
+|%V_X2  %V_Y2  %V_S2|</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>0,268,201,337,0,104,184,150</geom>
+			<Str sr="arg0" ve="3">Text3</Str>
+			<Str sr="arg1" ve="3">Equation Matrix:</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>540,268,223,337,0,104,184,150</geom>
+			<Str sr="arg0" ve="3">Text4</Str>
+			<Str sr="arg1" ve="3">Determinant:</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>765,268,315,337,185,104,274,150</geom>
+			<Str sr="arg0" ve="3">Text5</Str>
+			<Str sr="arg1" ve="3">|X1  Y1|
+|X2  Y2|
+
+
+|%V_X1  %V_Y1|
+|%V_X2  %V_Y2|</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements7" ve="3">
+			<flags>4</flags>
+			<geom>540,606,540,112,360,354,359,75</geom>
+			<Str sr="arg0" ve="3">Text6</Str>
+			<Str sr="arg1" ve="3">∆Determinant((%V_X1*%V_Y2)-(%V_X2*%V_Y1)): %V_Determinant</Str>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000CFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements8" ve="3">
+			<flags>4</flags>
+			<geom>0,793,201,337,0,104,184,150</geom>
+			<Str sr="arg0" ve="3">Text7</Str>
+			<Str sr="arg1" ve="3">Determinant of X:</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements9" ve="3">
+			<flags>4</flags>
+			<geom>202,793,298,337,185,104,274,150</geom>
+			<Str sr="arg0" ve="3">Text8</Str>
+			<Str sr="arg1" ve="3">|S1  Y1|
+|S2  Y2|
+
+
+|%V_S1  %V_Y1|
+|%V_S2  %V_Y2|</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg3" val="1"/>
+			<Str sr="arg4" ve="3">Result Panel</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<ListElementItem sr="item0">
+				<label>Back</label>
+				<Action sr="action" ve="7">
+					<code>49</code>
+					<Str sr="arg0" ve="3">Result Panel 2X2</Str>
+				</Action>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneResult Panel 3X3">
+		<cdate>1569144270447</cdate>
+		<edate>1576748444769</edate>
+		<heightLand>1080</heightLand>
+		<heightPort>1776</heightPort>
+		<nme>Result Panel 3X3</nme>
+		<widthLand>1080</widthLand>
+		<widthPort>1080</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,718,1080,712,0,255,1078,825</geom>
+			<Str sr="arg0" ve="3">Rectangle1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF00EEFE</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>0,0,1080,118,0,0,1078,118</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Type 3X3</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FF05E377</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements10" ve="3">
+			<flags>4</flags>
+			<geom>540,718,223,262,0,156,276,225</geom>
+			<Str sr="arg0" ve="3">Text9</Str>
+			<Str sr="arg1" ve="3">Determinant of Y:</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements11" ve="3">
+			<flags>4</flags>
+			<geom>765,718,315,262,277,156,411,225</geom>
+			<Str sr="arg0" ve="3">Text10</Str>
+			<Str sr="arg1" ve="3">|X1  S1  Z1|
+|X2  S2  Z2|
+|X3  S3  Z3|
+
+|%3V_X1  %3V_S1  %3V_Z1|
+|%3V_X2  %3V_S2  %3V_Z2|
+|%3V_X3  %3V_S3  %3V_Z3|</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements12" ve="3">
+			<flags>4</flags>
+			<geom>0,981,501,112,540,531,538,112</geom>
+			<Str sr="arg0" ve="3">Text11</Str>
+			<Str sr="arg1" ve="3">∆Determinant of X [%3V_S1*((%3V_Y2*%3V_Z3)-(%3V_Y3*%3V_Z2))-%3V_Y1*((%3V_S2*%3V_Z3)-(%3V_S3*%3V_Z2))+%3V_Z1*((%3V_S2*%3V_Y3)-(%3V_S3*%3V_Y2))]  = %3V_X_Determinant</Str>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF2100FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements13" ve="3">
+			<flags>4</flags>
+			<geom>540,981,540,112,540,531,538,112</geom>
+			<Str sr="arg0" ve="3">Text12</Str>
+			<Str sr="arg1" ve="3">∆Determinant of Y [%3V_X1*((%3V_S2*%3V_Z3)-(%3V_S3*%3V_Z2))-%3V_S1*((%3V_X2*%3V_Z3)-(%3V_X3*%3V_Z2))+%3V_Z1*((%3V_X2*%3V_S3)-(%3V_X3*%3V_S2))] = %3V_Y_Determinant</Str>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF2100FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<RectElement sr="elements14">
+			<flags>4</flags>
+			<geom>0,1431,1080,345,0,255,1078,825</geom>
+			<Str sr="arg0" ve="3">Rectangle3</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF0BE19E</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements15" ve="3">
+			<flags>4</flags>
+			<geom>0,1431,351,112,0,967,351,112</geom>
+			<Str sr="arg0" ve="3">Text13</Str>
+			<Str sr="arg1" ve="3">Value Of X:</Str>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0C09A4</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements16" ve="3">
+			<flags>4</flags>
+			<geom>352,1431,728,112,352,967,726,112</geom>
+			<Str sr="arg0" ve="3">Text14</Str>
+			<Str sr="arg1" ve="3">(∆X's Determinant)/(∆Equation's Determinant) = (%3V_X_Determinant/%3V_Determinant) = %3Value_X</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0050</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements17" ve="3">
+			<flags>4</flags>
+			<geom>0,1543,352,118,0,967,351,112</geom>
+			<Str sr="arg0" ve="3">Text15</Str>
+			<Str sr="arg1" ve="3">Value Of Y:</Str>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0C09A4</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements18" ve="3">
+			<flags>4</flags>
+			<geom>352,1543,728,118,352,967,726,112</geom>
+			<Str sr="arg0" ve="3">Text16</Str>
+			<Str sr="arg1" ve="3">(∆Y's Determinant)/(∆Equation's Determinant) = (%3V_Y_Determinant/%3V_Determinant) = %3Value_Y</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0050</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements19" ve="3">
+			<flags>4</flags>
+			<geom>0,118,1080,150,0,156,1078,112</geom>
+			<Str sr="arg0" ve="3">Text17</Str>
+			<Str sr="arg1" ve="3">Equation: 
+(%3V_X1*X)+(%3V_Y1*Y)+(%3V_Z1*Z)=%3V_S1
+(%3V_X2*X)+(%3V_Y2*Y)+(%3V_Z2*Z)=%3V_S2
+(%3V_X3*X)+(%3V_Y3*Y)+(%3V_Z3*Z)=%3V_S3</Str>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF004BFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<RectElement sr="elements2">
+			<flags>4</flags>
+			<geom>0,118,1080,600,0,255,1078,825</geom>
+			<Str sr="arg0" ve="3">Rectangle2</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF0BE19E</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements20" ve="3">
+			<flags>4</flags>
+			<geom>0,1131,238,187,0,156,276,225</geom>
+			<Str sr="arg0" ve="3">Text18</Str>
+			<Str sr="arg1" ve="3">Determinant of Z:</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements21" ve="3">
+			<flags>4</flags>
+			<geom>240,1131,261,268,277,156,411,225</geom>
+			<Str sr="arg0" ve="3">Text19</Str>
+			<Str sr="arg1" ve="3">|X1  Y1  S1|
+|X2  Y2  S2|
+|X3  Y3  S3|
+
+|%3V_X1  %3V_Y1  %3V_S1|
+|%3V_X2  %3V_Y2  %3V_S2|
+|%3V_X3  %3V_Y3  %3V_S3|</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements22" ve="3">
+			<flags>4</flags>
+			<geom>502,1281,540,118,540,531,538,112</geom>
+			<Str sr="arg0" ve="3">Text20</Str>
+			<Str sr="arg1" ve="3">∆Determinant of Z  [%3V_X1*((%3V_Y2*%3V_S3)-(%3V_Y3*%3V_S2))-%3V_Y1*((%3V_X2*%3V_S3)-(%3V_X3*%3V_S2))+%3V_S1*((%3V_X2*%3V_Y3)-(%3V_X3*%3V_Y2))] = %3V_Z_Determinant</Str>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF2100FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements23" ve="3">
+			<flags>4</flags>
+			<geom>0,1657,352,118,0,967,351,112</geom>
+			<Str sr="arg0" ve="3">Text21</Str>
+			<Str sr="arg1" ve="3">Value Of Z:</Str>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0C09A4</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements24" ve="3">
+			<flags>4</flags>
+			<geom>352,1657,728,118,352,967,726,112</geom>
+			<Str sr="arg0" ve="3">Text22</Str>
+			<Str sr="arg1" ve="3">(∆Y's Determinant)/(∆Equation's Determinant) = (%3V_Z_Determinant/%3V_Determinant) = %3Value_Z</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0050</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>202,268,298,412,277,156,411,225</geom>
+			<Str sr="arg0" ve="3">Text2</Str>
+			<Str sr="arg1" ve="3">|X1  Y1  Z1  S1|
+|X2  Y2  Z2  S2|
+|X3  Y3  Z3  S3|
+
+
+|%3V_X1  %3V_Y1  %3V_Z1  %3V_S1|
+|%3V_X2  %3V_Y2  %3V_Z2  %3V_S2|
+|%3V_X3  %3V_Y2  %3V_Z3  %3V_S3|</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>0,268,201,412,0,156,276,225</geom>
+			<Str sr="arg0" ve="3">Text3</Str>
+			<Str sr="arg1" ve="3">Equation Matrix:</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>540,268,223,300,0,156,276,225</geom>
+			<Str sr="arg0" ve="3">Text4</Str>
+			<Str sr="arg1" ve="3">Determinant:</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>765,268,315,300,277,156,411,225</geom>
+			<Str sr="arg0" ve="3">Text5</Str>
+			<Str sr="arg1" ve="3">|X1  Y1  Z1|
+|X2  Y2  Z2|
+|X3  Y3  Z3|
+
+|%3V_X1  %3V_Y1  %3V_Z1|
+|%3V_X2  %3V_Y2  %3V_Z2|
+|%3V_X3  %3V_Y3  %3V_Z3|</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements7" ve="3">
+			<flags>4</flags>
+			<geom>540,568,540,150,540,531,538,112</geom>
+			<Str sr="arg0" ve="3">Text6</Str>
+			<Str sr="arg1" ve="3">∆Determinant. [%3V_X1*((%3V_Y2*%3V_Z3)-(%3V_Y3*%3V_Z2))-%3V_Y1*((%3V_X2*%3V_Z3)-(%3V_X3*%3V_Z2))+%3V_Z1*((%3V_X2*%3V_Y3)-(%3V_X3*%3V_Y2))] = %3V_Determinant</Str>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF2100FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements8" ve="3">
+			<flags>4</flags>
+			<geom>0,718,238,262,0,156,276,225</geom>
+			<Str sr="arg0" ve="3">Text7</Str>
+			<Str sr="arg1" ve="3">Determinant of X:</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements9" ve="3">
+			<flags>4</flags>
+			<geom>240,718,261,262,277,156,411,225</geom>
+			<Str sr="arg0" ve="3">Text8</Str>
+			<Str sr="arg1" ve="3">|S1  Y1  Z1|
+|S2  Y2  Z2|
+|S3  Y3  Z3|
+
+|%3V_S1  %3V_Y1  %3V_Z1|
+|%3V_S2  %3V_Y2  %3V_Z2|
+|%3V_S3  %3V_Y3  %3V_Z3|</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg3" val="1"/>
+			<Str sr="arg4" ve="3">Result Panel</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<ListElementItem sr="item0">
+				<label>Back</label>
+				<Action sr="action" ve="7">
+					<code>49</code>
+					<Str sr="arg0" ve="3">Result Panel 3X3</Str>
+				</Action>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneUser Guide">
+		<cdate>1576772238762</cdate>
+		<edate>1576834219319</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2016</heightPort>
+		<nme>User Guide</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<ListElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,233,1042,1550,0,233,1042,1550</geom>
+			<Str sr="arg0" ve="3">Menu1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Scene sr="arg4">
+				<Scene sr="val">
+					<cdate>1576772311161</cdate>
+					<edate>1576772311161</edate>
+					<heightLand>1718</heightLand>
+					<heightPort>1218</heightPort>
+					<nme>Builtin Item Layout</nme>
+					<widthLand>1042</widthLand>
+					<widthPort>1042</widthPort>
+					<ImageElement sr="elements0" ve="2">
+						<flags>5</flags>
+						<geom>0,102,1038,1116,573,15,153,137</geom>
+						<Str sr="arg0" ve="3">Icon</Str>
+						<Img sr="arg1" ve="2">
+							<nme>hd_aaa_ext_tiles_small</nme>
+						</Img>
+						<Int sr="arg2" val="255"/>
+					</ImageElement>
+					<TextElement sr="elements1" ve="3">
+						<flags>5</flags>
+						<geom>0,0,1042,98,112,15,445,137</geom>
+						<Str sr="arg0" ve="3">Label</Str>
+						<Str sr="arg1" ve="3"/>
+						<Int sr="arg2" val="16"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFF0000</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="3"/>
+						<Int sr="arg7" val="0"/>
+						<Int sr="arg8" val="0"/>
+					</TextElement>
+					<TextElement sr="elements2" ve="3">
+						<flags>1</flags>
+						<geom>15,15,81,137,15,15,81,137</geom>
+						<Str sr="arg0" ve="3">Index</Str>
+						<Str sr="arg1" ve="3">1.</Str>
+						<Int sr="arg2" val="24"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="0"/>
+						<Int sr="arg7"/>
+						<Int sr="arg8"/>
+					</TextElement>
+					<PropertiesElement sr="props">
+						<Int sr="arg0" val="1"/>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#00000000</Str>
+						<Int sr="arg3" val="0"/>
+						<Str sr="arg4" ve="3">Builtin Item Layout</Str>
+						<Str sr="arg5" ve="3"/>
+						<Img sr="arg6" ve="2"/>
+						<Str sr="arg7" ve="3"/>
+					</PropertiesElement>
+				</Scene>
+			</Scene>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<ListElementItem sr="item0">
+				<label>Main Menu UI</label>
+				<Img sr="icon" ve="2">
+					<uri>content://com.android.externalstorage.documents/document/primary%3AProject%20Cramer's%20Rule%20Matrix%20Calculator%2FGuide%2F1200x1200%2FUntitled-1.jpg</uri>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Input Panel UI</label>
+				<Img sr="icon" ve="2">
+					<uri>content://com.android.externalstorage.documents/document/primary%3AProject%20Cramer's%20Rule%20Matrix%20Calculator%2FGuide%2F1200x1200%2FUntitled-2.jpg</uri>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>Result Panel UI</label>
+				<Img sr="icon" ve="2">
+					<uri>content://com.android.externalstorage.documents/document/primary%3AProject%20Cramer's%20Rule%20Matrix%20Calculator%2FGuide%2F1200x1200%2FUntitled-3.jpg</uri>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item3">
+				<label>Example 1.</label>
+				<Img sr="icon" ve="2">
+					<uri>content://com.android.externalstorage.documents/document/primary%3AProject%20Cramer's%20Rule%20Matrix%20Calculator%2FGuide%2F1200x1200%2FUntitled-4.jpg</uri>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item4">
+				<label>Example 2.</label>
+				<Img sr="icon" ve="2">
+					<uri>content://com.android.externalstorage.documents/document/primary%3AProject%20Cramer's%20Rule%20Matrix%20Calculator%2FGuide%2F1200x1200%2FUntitled-5.jpg</uri>
+				</Img>
+			</ListElementItem>
+		</ListElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg3" val="1"/>
+			<Str sr="arg4" ve="3">User Guide</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<ListElementItem sr="item0">
+				<label>Back</label>
+				<Action sr="action" ve="7">
+					<code>49</code>
+					<Str sr="arg0" ve="3">User Guide</Str>
+				</Action>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task78">
+		<cdate>1569158098387</cdate>
+		<edate>1576658318550</edate>
+		<id>78</id>
+		<nme>Nl</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Hkl</Str>
+			<Str sr="arg1" ve="3">12345</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Kkl</Str>
+			<Str sr="arg1" ve="3">34765</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Hkl %Kkl</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task79">
+		<cdate>1569146447664</cdate>
+		<edate>1576837087136</edate>
+		<id>79</id>
+		<nme>Run It</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Cramer's Matrix calc By N Paul</Str>
+			<Int sr="arg1" val="9"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Cramer's Matrix calc By N Paul</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Main Menu</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task80">
+		<cdate>1569145821806</cdate>
+		<edate>1576660931748</edate>
+		<id>80</id>
+		<nme>2X2_Calculator</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_X1</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%V_X1</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_X2</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%V_X2</Str>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Value_Y</Str>
+			<Str sr="arg1" ve="3">%V_Y_Determinant/%V_Determinant</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_Y1</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%V_Y1</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_Y2</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%V_Y2</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_S1</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%V_S1</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_S2</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%V_S2</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%V_Determinant</Str>
+			<Str sr="arg1" ve="3">(%V_X1*%V_Y2)-(%V_X2*%V_Y1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%V_X_Determinant</Str>
+			<Str sr="arg1" ve="3">(%V_S1*%V_Y2)-(%V_S2*%V_Y1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%V_Y_Determinant</Str>
+			<Str sr="arg1" ve="3">(%V_X1*%V_S2)-(%V_X2*%V_S1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Value_X</Str>
+			<Str sr="arg1" ve="3">%V_X_Determinant/%V_Determinant</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+	</Task>
+	<Task sr="task81">
+		<cdate>1569145821806</cdate>
+		<edate>1576661233543</edate>
+		<id>81</id>
+		<nme>3X3_Calculator</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_X1</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%3V_X1</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_X2</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%3V_X2</Str>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_S2</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%3V_S2</Str>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_S3</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%3V_S3</Str>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%3V_Determinant</Str>
+			<Str sr="arg1" ve="3">%3V_X1*((%3V_Y2*%3V_Z3)-(%3V_Y3*%3V_Z2))-%3V_Y1*((%3V_X2*%3V_Z3)-(%3V_X3*%3V_Z2))+%3V_Z1*((%3V_X2*%3V_Y3)-(%3V_X3*%3V_Y2))</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%3V_X_Determinant</Str>
+			<Str sr="arg1" ve="3">%3V_S1*((%3V_Y2*%3V_Z3)-(%3V_Y3*%3V_Z2))-%3V_Y1*((%3V_S2*%3V_Z3)-(%3V_S3*%3V_Z2))+%3V_Z1*((%3V_S2*%3V_Y3)-(%3V_S3*%3V_Y2))</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%3V_Y_Determinant</Str>
+			<Str sr="arg1" ve="3">%3V_X1*((%3V_S2*%3V_Z3)-(%3V_S3*%3V_Z2))-%3V_S1*((%3V_X2*%3V_Z3)-(%3V_X3*%3V_Z2))+%3V_Z1*((%3V_X2*%3V_S3)-(%3V_X3*%3V_S2))</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%3V_Z_Determinant</Str>
+			<Str sr="arg1" ve="3">%3V_X1*((%3V_Y2*%3V_S3)-(%3V_Y3*%3V_S2))-%3V_Y1*((%3V_X2*%3V_S3)-(%3V_X3*%3V_S2))+%3V_S1*((%3V_X2*%3V_Y3)-(%3V_X3*%3V_Y2))</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%3Value_X</Str>
+			<Str sr="arg1" ve="3">%3V_X_Determinant/%3V_Determinant</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%3Value_Y</Str>
+			<Str sr="arg1" ve="3">%3V_Y_Determinant/%3V_Determinant</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%3Value_Z</Str>
+			<Str sr="arg1" ve="3">%3V_Z_Determinant/%3V_Determinant</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_X3</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%3V_X3</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Y1</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%3V_Y1</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Y2</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%3V_Y2</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Y3</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%3V_Y3</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Z1</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%3V_Z1</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Z2</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%3V_Z2</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Z3</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%3V_Z3</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_S1</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%3V_S1</Str>
+		</Action>
+	</Task>
+	<Task sr="task82">
+		<cdate>1576654732961</cdate>
+		<edate>1576654732961</edate>
+		<id>82</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tap_index</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Tab_Select</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_X3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Y</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Y1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Y2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Y3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Z</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Z1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Z2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Z3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="200"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Rect</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_Rect</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_S</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_S1</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_S2</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_X</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_X1</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_X2</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_Y</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_Y1</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_Y2</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_S</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tap_index</lhs>
+					<op>2</op>
+					<rhs>2</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Tab_Select</Str>
+			<Str sr="arg1" ve="3">2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_Rect</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_S</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_S1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_S2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_X</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_X1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_X2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_Y</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_S1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_Y1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">2X2_Y2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="200"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act43" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Rect</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act44" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_S</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_S1</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act46" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_S2</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act47" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_S3</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act48" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_X</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act49" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_X1</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_S2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act50" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_X2</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act51" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_X3</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act52" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Y</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act53" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Y1</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act54" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Y2</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act55" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Y3</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act56" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Z</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act57" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Z1</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act58" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Z2</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act59" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_Z3</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_S3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act60" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_X</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_X1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">3X3_X2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task83">
+		<cdate>1576657992241</cdate>
+		<edate>1576657992241</edate>
+		<id>83</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Tab_Select</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Tab_Select</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Tab_Select</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">3X3_Calculator</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%3Value_X</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%3Value_Y</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%3Value_Z</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Fill all correct information first!!</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Result Panel 3X3</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>55</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">Oval1</Str>
+			<Str sr="arg2" ve="3">#FF06E4BA</Str>
+			<Str sr="arg3" ve="3">#FF06E4BA</Str>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>55</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">Oval1</Str>
+			<Str sr="arg2" ve="3">#FFFF0000</Str>
+			<Str sr="arg3" ve="3">#FFFF0000</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">2X2_Calculator</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%Value_X</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%Value_Y</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Fill all correct information first!!</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Result Panel 2X2</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>55</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Str sr="arg1" ve="3">Oval1</Str>
+			<Str sr="arg2" ve="3">#FF06E4BA</Str>
+			<Str sr="arg3" ve="3">#FF06E4BA</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Tab_Select</lhs>
+					<op>2</op>
+					<rhs>2</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task84">
+		<cdate>1576664019709</cdate>
+		<edate>1576664183903</edate>
+		<id>84</id>
+		<nme>Clear All</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task85">
+		<cdate>1576747547704</cdate>
+		<edate>1576747631621</edate>
+		<id>85</id>
+		<nme>Exit</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Main Menu</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Bye bye...</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task86">
+		<cdate>1576747680014</cdate>
+		<edate>1576747774324</edate>
+		<id>86</id>
+		<nme>Support</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://m.facebook.com/a.New.Way.Technical/</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Thank you, now please like my facebook page...</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task87">
+		<cdate>1576748466833</cdate>
+		<edate>1576836981800</edate>
+		<id>87</id>
+		<nme>Run(Menu Item)</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Input Panel</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>
