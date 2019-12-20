@@ -30,10 +30,8 @@ About source project:
 Here is a directory and file guide:
       there are 3 folder
       (1) "Apk file" folder [contains premade/exported 'Cramer_s_Rule_Calc.apk' android application file]
-
       (2) "Assets" folder [contains several assets(pictures) files for the project (mainly guide pictures and logo/icon
           for the application) and you can even modify them via photoshop.]
-
       (3)"Project Source" folder [contains main project file. Download it and import it to the tasker app, modify or view
        it and enjoy...]
 
